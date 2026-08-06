@@ -173,6 +173,11 @@ img { max-width: 100%; }
 .form-note { text-align: center; font-size: 0.8rem; color: var(--text-light); margin-top: 12px; }
 .form-success { display: none; background: #d4edda; color: #155724; border-radius: 10px; padding: 14px; text-align: center; font-size: 0.93rem; font-weight: 600; margin-top: 12px; }
 
+/* MAP STRIP */
+.map-strip { position: relative; line-height: 0; }
+.map-overlay { position: absolute; top: 16px; left: 50%; transform: translateX(-50%); z-index: 10; background: rgba(26,107,138,0.92); backdrop-filter: blur(8px); border-radius: 50px; padding: 10px 20px; white-space: nowrap; }
+.map-info { display: flex; align-items: center; gap: 8px; color: #fff; font-size: 0.88rem; font-weight: 600; font-family: 'Poppins', sans-serif; }
+
 /* FOOTER */
 .footer { background: var(--text); padding: 80px 0 0; }
 .footer-container { display: grid; grid-template-columns: 2fr 1fr 1fr 1.5fr; gap: 48px; padding-bottom: 60px; border-bottom: 1px solid rgba(255,255,255,0.08); }
